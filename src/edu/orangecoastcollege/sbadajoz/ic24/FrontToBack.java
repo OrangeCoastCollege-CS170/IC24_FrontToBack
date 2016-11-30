@@ -24,7 +24,10 @@ public class FrontToBack {
                     output.print(words[i] + " ");
                 }
                 output.println();
+                
             }
+            input.close();
+            output.close();
         } catch(IOException e) {
             System.out.println("File not found.");
         }
